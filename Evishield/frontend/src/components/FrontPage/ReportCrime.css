@@ -1,0 +1,144 @@
+.reportCrime {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* .reportCrimeLeft{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 50%;
+    padding: 10px;
+    font-size:large;
+}
+
+.reportCrimeRight {
+  margin-top: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size:large;
+}
+.reportCrimeCenter {
+  margin-top: 50px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  width: 100%;
+  font-size:large;
+} */
+
+label{
+  display: inline-block;
+  margin-bottom: 35px;
+  clear: left;
+  width: 250px;
+  text-align: left;
+}
+
+input {
+  display: inline-block;
+  width: 450px;
+  padding: 10px;
+}
+
+.captcha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttons {
+  margin-left: 48%;
+  position: absolute;
+  top: 85%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.link.button {
+padding: 8px 16px; 
+color: #f9fafe;
+background-color: var(--primary-color);
+border: none;
+border-radius: 4px;
+}
+
+.link.button:hover {
+background-color: #a79cf6; 
+}
+
+.style{
+border: 2px solid #ccc; 
+padding: 20px; 
+border-radius: 10px; 
+background-color: #f9f9f9; 
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 400px;
+width: 900px;
+text-align: left;
+}
+
+.olprop{
+text-align: left;
+margin-bottom: '10px';
+}
+
+.input{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+.details{
+justify-content: flex-start;
+text-align: left;
+}
+
+.close-button {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+  color: black; /* Change color as needed */
+}
+
+.close-button:hover {
+  color: grey; /* Change color on hover */
+}
+
+.evidence-list {
+  margin-bottom: 20px; /* Add margin to separate evidence list from other elements */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: center; /* Aligning text in center */
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #0b0a0a;
+}
+
+
+

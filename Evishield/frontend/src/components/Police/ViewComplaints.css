@@ -1,0 +1,36 @@
+.viewComplaints{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.button {
+    padding: 8px 16px; 
+    color: #f9fafe;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+  }
+  
+
+.table-heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-weight: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center; /* Aligning text in center */
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }

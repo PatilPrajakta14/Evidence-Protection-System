@@ -1,0 +1,228 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Set initial background to transparent */
+  z-index: 1000;
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+  box-shadow: none; /* Remove any initial box shadow */
+}
+
+.nav.scrolled {
+  background-color: #ffffff; /* Change background color after scrolling */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow after scrolling */
+}
+.nav__logo {
+  font-size: 24px; /* reduce font size for better fit */
+  font-weight: 600; /* increase font weight for better visibility */
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  padding: 0 1rem; /* reduce padding for better spacing */
+  color: var(--text-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: var(--primary-color);
+}
+
+.link.button {
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+}
+
+.link.button:hover {
+  background-color: #a79cf6;
+}
+
+@media (max-width: 900px) {
+  .nav__links {
+    display: none; /* hide links on smaller screens */
+  }
+
+  .link a:not(.nav__btn) {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .content__container {
+    text-align: center;
+  }
+
+  .content__container form {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image__container {
+    grid-area: 1/1/2/2;
+  }
+
+  .image__container img {
+    transform: translateY(0) !important;
+  }
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #5c48ee;
+  --primary-color-dark: #0f1e6a;
+  --secondary-color: #f9fafe;
+  --text-color: #333333;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  min-height: calc(100vh - 100px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+.content__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav__logo {
+  font-size: 40px;
+  font-weight: 550;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: 0.3s;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav__links {
+  margin: flex;
+  padding: 2rem;
+  height: 100px;
+  display:flex;
+  align-items: center; 
+  font-size: 20px;
+  font-weight: 300;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.link {
+  padding: 2rem 2rem;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: 0.3s;
+  color: #0f1e6a;
+  
+}
+
+.link:hover {
+  color: var(--primary-color);
+}
+
+.login-section {
+  padding: 0.5rem 2rem;
+  color: var(--white) !important;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  display: none;
+}
+
+.logout-section {
+  padding: 0.5rem 2rem;
+  color: var(--white) !important;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  display: none;
+}
+
+.link.button {
+  padding: 8px 16px; 
+  color: #f9fafe;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+}
+
+.link.button:hover {
+  background-color: #a79cf6; 
+}
+
+.nav__btn:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1rem;
+  min-height: calc(100vh - 100px);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+
+@media (max-width: 900px) {
+  .link a:not(.nav__btn) {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .content__container {
+    text-align: center;
+  }
+
+  .content__container form {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image__container {
+    grid-area: 1/1/2/2;
+  }
+
+  .image__container img {
+    transform: translateY(0) !important;
+  }
+}

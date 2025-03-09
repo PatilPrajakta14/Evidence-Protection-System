@@ -1,0 +1,36 @@
+/* .App{
+    /* background-color: grey; 
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; 
+}
+.top{
+    display: flex;
+    position:absolute;
+    /* justify-content: center; 
+    
+}
+.routes{
+
+    padding-top: 120px; 
+    margin-top: auto; 
+} */
+.App {
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+  }
+  
+  .top {
+    display: flex;
+    /* position: absolute; / / Remove absolute positioning */
+    justify-content: space-between; /* Adjust alignment */
+    align-items: center; /* Align items vertically */
+    padding: 0.5rem;
+  }
+  
+  .routes {
+    padding-top: 20px; /* Adjust padding */
+    /* margin-top: auto; / / Remove margin-top */
+  }

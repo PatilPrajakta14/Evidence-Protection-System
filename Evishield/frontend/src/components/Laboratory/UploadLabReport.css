@@ -1,0 +1,41 @@
+.uploadReport{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.button {
+    padding: 8px 16px; 
+    color: #f9fafe;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+  }
+  
+
+
+Link{
+  text-decoration: none;
+  
+}
+
+.view-document-button {
+  background-color: transparent; /* Transparent background */
+  color: #007bff; /* Blue text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor on hover */
+
+  /* Position the eye icon to the left of the text */
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Style the eye icon */
+.view-document-button span {
+  margin-right: 5px; /* Margin between the icon and text */
+  font-size: 20px; /* Icon size */
+}
+

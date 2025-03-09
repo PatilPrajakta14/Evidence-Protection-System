@@ -1,0 +1,18 @@
+.uploadReport{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.button {
+    padding: 8px 16px; 
+    color: #f9fafe;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+  }
+  
+.button:hover {
+   background-color: #a79cf6; 
+}

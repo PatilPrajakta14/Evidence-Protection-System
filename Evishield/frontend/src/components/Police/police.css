@@ -1,0 +1,35 @@
+
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* justify-content: center; */
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 150px;
+    background-color: white;
+    /* opacity: 0.5; */
+    z-index: -1;
+}
+
+.boxes .box1 {
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    /* background-color: gray; */
+    text-decoration: none;
+    border: 10px;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    
+}
