@@ -1,8 +1,8 @@
-# Evishield: Decentralized Evidence Management System
+# Evidence Shield: Decentralized Evidence Management System
 
 ![Project Banner](./images/Overview.png)
 
-**Evishield** is a decentralized evidence management platform built on Ethereum and IPFS. It securely registers cases, uploads evidence, and retrieves reports using smart contracts, MetaMask authentication, and IPFS storage. Awarded 2nd prize at DIPEX'24 and protected by Intellectual Property India, Evishield ensures transparency, security, and efficiency in the reporting and investigation of crimes.
+**Evidence Shield** is a decentralized evidence management platform built on Ethereum and IPFS. It securely registers cases, uploads evidence, and retrieves reports using smart contracts, MetaMask authentication, and IPFS storage. Awarded 2nd prize at DIPEX'24 and protected by Intellectual Property India, Evishield ensures transparency, security, and efficiency in the reporting and investigation of crimes.
 
 ---
 
@@ -145,12 +145,13 @@ npm start
 ```
 The app will launch at http://localhost:3000.
 
-### MetaMask Setup:
-
+### MetaMask Setup
 Install MetaMask in your browser.
 Add a custom RPC network pointing to http://127.0.0.1:7545.
 Import one of your Ganache accounts for transaction signing.
-Snapshots
+
+
+## Snapshots
 Below are snapshots of the project in action:
 ### 1.
 <img src="./images/LandingPage.png" alt="Title Page" width="500"/>
@@ -310,7 +311,10 @@ Protected under Intellectual Property India.
 
 ## Contact
 
-Feel free to adjust the content, image paths, and links to match your project's specifics. This README should now provide a comprehensive overview of your project along with detailed information about the MetaMask integration and all important modules.
+For any questions or feedback, please contact us at pprajakta1406@gmail.com
+
+Thank you for exploring our Evidence Protection System. If you find this project useful, please consider starring the repository on GitHub!
+
 
 
 
